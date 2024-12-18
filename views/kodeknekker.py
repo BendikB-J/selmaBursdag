@@ -28,7 +28,7 @@ def countdown_timer():
 
 # Last inn bilde
 try:
-    st.image("/Users/bendikberg-jensen/Documents/Skole/øvinger/SelmaSpill/images-2.png")
+    st.image("images/images-2.png")
 except:
     st.error("Kunne ikke laste inn bildet. Sjekk at filstien er korrekt.")
 
