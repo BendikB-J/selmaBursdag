@@ -39,7 +39,7 @@ if st.session_state.input_locked:
                  disabled=True)
     countdown_timer()
 else:
-    user_input = st.text_input("Skriv inn riktig kode for å låse opp flere sider:", type="password")
+    user_input = st.text_input("Skriv inn riktig kode for å låse opp flere sider:")
 
     if user_input:
         if user_input == "Rødborge":
