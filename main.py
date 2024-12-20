@@ -10,11 +10,11 @@ kodeknekker = st.Page(
     page ="views/kodeknekker.py",
     title="Kodeknekker"
 )
-dokumenter = st.Page(
-    page = "views/dokumenter.py",
-    title = "Dokumenter"
+#dokumenter = st.Page(
+#    page = "views/dokumenter.py",
+#    title = "Dokumenter"
 
-)
+#)
 
 #navigasjon
 
