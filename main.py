@@ -18,7 +18,7 @@ kodeknekker = st.Page(
 
 #navigasjon
 
-pg = st.navigation(pages=[hjem_page, dokumenter, kodeknekker])
+pg = st.navigation(pages=[hjem_page, kodeknekker])
 
 #run navi
 
