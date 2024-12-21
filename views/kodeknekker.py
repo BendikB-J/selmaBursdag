@@ -73,18 +73,17 @@ else:
 
         elif user_input == "START":
             st.success("Riktig! Klikk på lenken under for å gå videre:")
-            st.markdown('<a href="https://docs.google.com/document/d/1DLQspYH8ciyDBRkw3MacPt-X7b1n8OVgwbqdxAFhVJw/edit?usp=sharing" target="_blank">Klikk her for å gå videre</a>', unsafe_allow_html=True)
+            st.markdown('<a href="https://drive.google.com/drive/folders/1zkd_3BxmZdQ7mzTjBF8DBKKslufvuC3H" target="_blank">Klikk her for å gå videre</a>', unsafe_allow_html=True)
                
         elif user_input == "PR52122":
             st.success("Takk for tipset, vi kommer tilbake til deg når vi vet noe mer!")
-            #st.markdown('<a href="https://docs.google.com/document/d/1eJBUDfjxswnoDrr1vliNKP2Q0K2-ZuzRTSw0RvpPDx8/edit?usp=sharing" target="_blank">Klikk her for å gå videre</a>', unsafe_allow_html=True)
-        
-        elif user_input == "OPPGAVE 2":
+            
+        elif user_input == "UTPÅTUR,ALDRISUR":
             st.success("Klikk på lenken under for å gå videre:")
-            st.markdown('<a href="https://docs.google.com/document/d/1sOMwI4pvwil9bOALEIi3MwnjwXx4pwZ6rNz7r84eYYE/edit?usp=sharing" target="_blank">Klikk her for å gå videre</a>', unsafe_allow_html=True)
+            st.markdown('<a href="https://drive.google.com/file/d/1h46W62ljwCe24pmieNg9jL0GMTrVaFn1/view?usp=sharing" target="_blank">Klikk her for å gå videre</a>', unsafe_allow_html=True)
         
         elif user_input in kodeliste:
-            st.success("Riktig kode, gå til gamemaster og oppgi hvilken kode du har skrevet inn")
+            st.success("Riktig kode, gå til game-master og oppgi hvilken kode du har skrevet inn")
             
 
         #elif user_input == "RØD":
