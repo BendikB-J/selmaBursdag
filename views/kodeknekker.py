@@ -33,7 +33,30 @@ except:
     st.error("Kunne ikke laste inn bildet. Sjekk at filstien er korrekt.")
 
 
-kodeliste = ["MOTHERLODE"]
+kodeliste = [
+    "MOTHERLODE",
+    "IDDQD",
+    "SELMA",
+    "BONUS",
+    "IMACHEAT",
+    "REDPILL",
+    "BONUSPOENG",
+    "HOROSKOP",
+    "CHEZBURGER",
+    "HELIUM",
+    "KONTORARBEID",
+    "MILKSHAKE",
+    "MAJONES",
+    "JUKS",
+    "GOD JUL",
+    "30",
+    "FREDERIK",
+    "KOKETOPP",
+    "PLATETOPP",
+    "BENDIK",
+    "ERNA SOLBERG",
+    "MARIUS BORG"
+]
 # Håndter input basert på timer og låsestatus
 if st.session_state.input_locked:
     st.text_input("Skriv inn riktig kode for å låse opp flere sider:", 
