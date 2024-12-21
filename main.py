@@ -6,9 +6,9 @@ hjem_page = st.Page(
     default = True,
 )
 
-kodeknekker = st.Page(
+tipsportal = st.Page(
     page ="views/kodeknekker.py",
-    title="Kodeknekker"
+    title="Tips"
 )
 #dokumenter = st.Page(
 #    page = "views/dokumenter.py",
@@ -18,7 +18,7 @@ kodeknekker = st.Page(
 
 #navigasjon
 
-pg = st.navigation(pages=[hjem_page, kodeknekker])
+pg = st.navigation(pages=[hjem_page, tipsportal])
 
 #run navi
 
