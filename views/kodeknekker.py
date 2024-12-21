@@ -112,4 +112,4 @@ else:
             st.rerun()
 
 if not st.session_state.timer_running:
-    st.sidebar.info("Skriv inn riktig kode for å låse opp flere sider.")
+    st.sidebar.info("Her kan du sende inn observasjoner og tips til politiet:")
