@@ -92,7 +92,7 @@ else:
             st.success("Klikk på lenken under for å gå videre:")
             st.markdown('<a href="https://drive.google.com/file/d/1BVTQ7Ys6pPkfPP1t069En75AxCyiRxEx/view?usp=sharing" target="_blank">Klikk her for å gå videre</a>', unsafe_allow_html=True)
         
-       elif user_input == "OSEBRO,OVERVURDERT?":
+        elif user_input == "OSEBRO,OVERVURDERT?":
             st.success("Klikk på lenken under for å gå videre:")
             st.markdown('<a href="https://drive.google.com/file/d/1CUsYBq_6SZRnOjP-JJnLLnRspJnH4UM8/view?usp=sharing" target="_blank">Klikk her for å gå videre</a>', unsafe_allow_html=True)
         
