@@ -65,7 +65,7 @@ riktig_svar = [
 ]
 # Håndter input basert på timer og låsestatus
 if st.session_state.input_locked:
-    st.text_input("Skriv inn riktig kode for å låse opp flere sider:", 
+    st.text_input("Her kan du sende inn observasjoner og tips til politiet:", 
                  value="Låst - vent til timeren er ferdig", 
                  disabled=True)
     countdown_timer()
