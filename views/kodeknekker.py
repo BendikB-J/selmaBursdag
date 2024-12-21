@@ -97,7 +97,7 @@ else:
             st.markdown('<a href="https://drive.google.com/file/d/1CUsYBq_6SZRnOjP-JJnLLnRspJnH4UM8/view?usp=sharing" target="_blank">Klikk her for å gå videre</a>', unsafe_allow_html=True)
           
         elif user_input in kodeliste:
-            st.success("Cheat code poeng: Gratulere. Vis dette til game master, og få 2 bonuspoeng")
+            st.success("Cheat code poeng: Gratulerer. Vis dette til game master, og få 2 bonuspoeng")
             
 
         #elif user_input == "RØD":
