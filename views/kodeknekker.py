@@ -111,5 +111,5 @@ else:
             st.session_state.input_locked = True
             st.rerun()
 
-if not st.session_state.timer_running:
-    st.sidebar.info("Her kan du sende inn observasjoner og tips til politiet:")
+#if not st.session_state.timer_running:
+   # st.sidebar.info("Her kan du sende inn observasjoner og tips til politiet:")
