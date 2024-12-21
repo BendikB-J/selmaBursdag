@@ -32,6 +32,8 @@ try:
 except:
     st.error("Kunne ikke laste inn bildet. Sjekk at filstien er korrekt.")
 
+
+kodeliste = ["MOTHERLODE"]
 # Håndter input basert på timer og låsestatus
 if st.session_state.input_locked:
     st.text_input("Skriv inn riktig kode for å låse opp flere sider:", 
@@ -57,6 +59,10 @@ else:
         elif user_input == "OPPGAVE 2":
             st.success("Klikk på lenken under for å gå videre:")
             st.markdown('<a href="https://docs.google.com/document/d/1sOMwI4pvwil9bOALEIi3MwnjwXx4pwZ6rNz7r84eYYE/edit?usp=sharing" target="_blank">Klikk her for å gå videre</a>', unsafe_allow_html=True)
+        
+        elif user_input in kodeliste:
+            st.success("Riktig kode, gå til gamemaster og oppgi hvilken kode du har skrevet inn")
+            
 
         #elif user_input == "RØD":
          #   st.success("Riktig! Klikk på lenken under for å gå videre:")
