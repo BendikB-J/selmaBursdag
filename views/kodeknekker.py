@@ -82,7 +82,7 @@ else:
             
         elif user_input == "START":
             st.success("Riktig! Klikk på lenken under for å gå videre:")
-            st.markdown('<a href="https://drive.google.com/drive/folders/1zkd_3BxmZdQ7mzTjBF8DBKKslufvuC3H" target="_blank">Klikk her for å gå videre</a>', unsafe_allow_html=True)
+            st.markdown('<a href="https://drive.google.com/file/d/1tsuCkV1eUN_jM8NO4uO7fOFwHhJjexQH/view?usp=sharing" target="_blank">Klikk her for å gå videre</a>', unsafe_allow_html=True)
             
         elif user_input == "UTPÅTUR,ALDRISUR":
             st.success("Klikk på lenken under for å gå videre:")
